@@ -1,20 +1,24 @@
 import React, {State} from 'react';
 import {useState} from 'react';
-import data from '../Data/BabyNamesData.json';
-import './FetchBabyNames.css';
 
-const FetcBabyNames = () => {
+import './FetchBabyNames.css';
+import SearchBabyNames from './SearchBabyNames';
+
+const FetchBabyNames = ({babyNames}) => {
   //<div className={props.item.purchased ? 'purchased' : ''}>
 
   return (
-    <div className="name-container">
-      {data.map((name) => (
-        <span className={name.sex === 'f' ? 'Girl-Name' : 'Boy-Name'}>
-          {name.name}
-        </span>
-      ))}
+    <div class="container">
+      
+      <div className="name-container">
+        {babyNames.map((name) => (
+          <span className={name.sex === 'f' ? 'Girl-Name' : 'Boy-Name'}>
+            {name.name}
+          </span>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default FetcBabyNames;
+export default FetchBabyNames;
