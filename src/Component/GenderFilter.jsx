@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import NameList from './NameList';
+import './GenderFilter.css';
 
 const GenderFilter = ({babyNames, radioButton, setRadioButton}) => {
   const onChangeValue = (event) => {
@@ -17,7 +18,7 @@ const GenderFilter = ({babyNames, radioButton, setRadioButton}) => {
   };
   console.log('value of radionButton variable', radioButton);
   return (
-    <div>
+    <div className='container'>
       <div onChange={onChangeValue}>
         <input type="radio" value="Boy" name="gender" /> Boy
         <input type="radio" value="Girl" name="gender" /> Girl

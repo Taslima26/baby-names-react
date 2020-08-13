@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import NameList from './NameList';
+import './ShortList';
 
 
 const ShortList = ({ shortList, setShortList, babyNames }) => {
@@ -20,7 +21,7 @@ const ShortList = ({ shortList, setShortList, babyNames }) => {
     
   return (
       <div>
-          <h2>{hasName ? 'Your Short List' : 'click on to add short list'}</h2>
+          <h2 className='container'>{hasName ? 'Your Short List' : 'click on to add short list'}</h2>
           <pre>{JSON.stringify(shortList)}</pre>
           <NameList nameList={shortListedItems} onItemClick={removeFromShortList}/>
     </div>

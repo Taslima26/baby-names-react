@@ -1,17 +1,17 @@
 .f{
     background-color: lightslategray;
-    border: maroon 1px solid;
-    margin: 0.4rem;
-    padding: 0.4rem;
+    border:lightslategray 1px solid;
+    margin: 0.15;
+    padding: 0.15rem;
      border-radius: 2rem;
 }
 
 
 .m{
     background-color: lightyellow;
-    border: maroon 1px solid;
-    margin: 0.4rem;
-    padding: 0.4rem;
+    border: lightYellow 1px solid;
+    margin: 0.15rem;
+    padding: 0.15rem;
     border-radius: 2rem;
 }
 
@@ -19,9 +19,9 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem; 
+     
    
     border-radius: 2rem;
-    padding: 2rem;
+    
     justify-content: center;
 }
