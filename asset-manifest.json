@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/baby-names-react/static/css/main.43550f59.chunk.css",
+    "main.js": "/baby-names-react/static/js/main.17483597.chunk.js",
+    "main.js.map": "/baby-names-react/static/js/main.17483597.chunk.js.map",
+    "runtime-main.js": "/baby-names-react/static/js/runtime-main.c2020224.js",
+    "runtime-main.js.map": "/baby-names-react/static/js/runtime-main.c2020224.js.map",
+    "static/js/2.94d81c1e.chunk.js": "/baby-names-react/static/js/2.94d81c1e.chunk.js",
+    "static/js/2.94d81c1e.chunk.js.map": "/baby-names-react/static/js/2.94d81c1e.chunk.js.map",
+    "index.html": "/baby-names-react/index.html",
+    "precache-manifest.22ed486ddff2e2ac6498a0edb1f58702.js": "/baby-names-react/precache-manifest.22ed486ddff2e2ac6498a0edb1f58702.js",
+    "service-worker.js": "/baby-names-react/service-worker.js",
+    "static/css/main.43550f59.chunk.css.map": "/baby-names-react/static/css/main.43550f59.chunk.css.map",
+    "static/js/2.94d81c1e.chunk.js.LICENSE.txt": "/baby-names-react/static/js/2.94d81c1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2020224.js",
+    "static/js/2.94d81c1e.chunk.js",
+    "static/css/main.43550f59.chunk.css",
+    "static/js/main.17483597.chunk.js"
+  ]
+}
